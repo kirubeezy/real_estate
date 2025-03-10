@@ -12,7 +12,7 @@ except ImportError:
 
 # Now import other libraries
 from uuid import uuid4
-from dotenv import load_dotenv # type: ignore
+# from dotenv import load_dotenv # type: ignore
 from pathlib import Path
 from langchain.chains import RetrievalQAWithSourcesChain # type: ignore
 from langchain_community.document_loaders import UnstructuredURLLoader # type: ignore
@@ -23,7 +23,7 @@ from langchain_huggingface.embeddings import HuggingFaceEmbeddings # type: ignor
 from huggingface_hub import login # type: ignore
 import os
 
-load_dotenv()
+# load_dotenv()
 
 CHUNK_SIZE=1000
 EMBEDDING_MODEL="Alibaba-NLP/gte-base-en-v1.5"

@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit as st # type: ignore
 from rag import generate_answer,process_urls
 
 st.title("Real Estate Research Tool")
